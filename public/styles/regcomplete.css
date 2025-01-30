@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+
+}
+h1{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 3px whitesmoke solid;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+    margin-left: 48%;
+    padding: 3px;
+    border-radius: 5px;
+}

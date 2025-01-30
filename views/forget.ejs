@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reset password</title>
+    <link rel="stylesheet" href="/styles/forget.css">
+</head>
+<body>
+    <div class="h2">
+    <h2>Reset your password</h2>
+</div>
+    <div>
+        <form action="/forget" method="post" class="form">
+            <div><label for="email">email</label>
+            <input type="email" name="email">
+            <button>send otp</button>
+        </div>
+        <div>
+            <label for="password">new password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="verify password">re-enter password</label>
+            <input type="password" name="vpass">
+        </div>
+        <div>
+            <label for="otp">enter otp</label>
+            <input type="text" name="otp">
+        </div>
+        <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>

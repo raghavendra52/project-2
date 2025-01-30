@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="/styles/home.css">
+   
+</head>
+<body>
+    <form action="/logout" method="post" class="lb">
+      <button type="submit" class="logout">Logout</button>
+    </form>
+    
+    <% blogs.rows.forEach(element => {%>
+        <div class="mess"></div>
+        <form action="/profile" method="post" class="pro">
+            
+           <button type="submit" value=
+              "<%= element.username %>"
+             name="wantProfile"
+             class="probtn">
+            <%= element.nickname %>
+           </button>
+        
+    </form>
+        <p class="blog">
+            <%= element.post %>
+        </p>
+        <% if(un===element.username){ %>
+            <form action="/delete" method="post">
+        <button class="delete" value="<%=element.id%>" name="delid" type="submit">delete</button></form>
+        <% } %>
+    </div>
+        
+    <% }); %>
+
+    
+    <form action="/send" method="post" class="sendform">
+       <textarea name="userpost" id="ta" placeholder="enter your message here"></textarea>
+        <button type="submit" class="sendbtn">send</button>
+    </form>
+    
+</body>
+</html>

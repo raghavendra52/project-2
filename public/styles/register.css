@@ -1,0 +1,65 @@
+body{
+    background-color: burlywood;
+    align-content: center;
+}
+.form{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 35%;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    justify-content: flex-start;
+}
+
+input{
+    border-radius: 4px;
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 25px;
+   
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+button{
+    border: 3px black solid;
+   border-radius: 6px;
+   height: 24px;
+}
+button:hover{
+    border: 3px gray solid;
+} 
+
+.back{
+    margin-left: 48%;
+    text-decoration: none;
+    border: 2px black solid;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: skyblue;
+}
+.h1{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px;
+    font-size: 25px;
+}
+.lb{
+    border: blue 3px solid;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: white;
+    margin-top: 60px;
+}
+.rb{
+    border: black 2px solid;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: black;
+}
+
+.rb:hover{
+    border: rgb(0, 255, 183) 3px solid;
+    transition: ease;
+}
+.lb:hover{
+    border: rgb(0, 255, 183) 3px solid;
+    transition: ease;
+}
+

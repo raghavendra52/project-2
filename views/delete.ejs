@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conformation</title>
+    <link rel="stylesheet" href="/styles/delete.css">
+</head>
+<body>
+    <form action="/confirmDelete" method="post">
+    <h2>are you sure want to delete the post?</h2>
+    <%= message.post %>
+    <div class="buttons">
+    <button type="submit" class="cancel" name="cancel" value="<%= message.username %>">cancel</button>
+    <button type="submit" name="sure" value="<%= message.id %>">okay</button>
+</div>
+</form>
+</body>
+</html>

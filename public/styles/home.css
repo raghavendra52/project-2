@@ -1,0 +1,92 @@
+body{
+    background-color:#524a48; 
+}
+.lb{
+    display: flex;
+    justify-content: flex-end;
+}
+.logout{
+    text-decoration: none;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.pro{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+    border-radius: 10px 0px 10px 0px;
+   padding-right: 2px;
+    
+}
+.probtn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+}
+.blog{
+    background-color: black;
+    border: black 3px solid;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    padding-left: 12px;
+    border-radius: 9px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    
+}
+.mess{
+    background-color: gray;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.sendform{
+    position: fixed;
+    left: 25%;
+    bottom: 20px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+#ta{
+    width: 80%;
+    resize: none;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 30px;
+}
+.sendbtn{
+    background-color: darkblue;
+    color: white;
+   margin-left: 10px;
+   border: blue 2px solid;
+   height: 30px;
+   width: 60px;
+   font-size: 17px;
+   cursor: pointer;
+   border-radius: 17px;
+}
+.delete{
+    margin-left: 10px;
+    background-color: azure;
+    color: black;
+    border-radius: 9px;
+}
+
+
